@@ -1,6 +1,9 @@
 button {
   display: block;
   margin: 10px auto;
+  background: #ebb9b9;
+  border: 2px solid #ebb9b9;
+  border-radius: 4%;
 }
 
 div {
@@ -16,8 +19,9 @@ div {
 
 .circle {
   background: #45c0c0;
-  border-radius: 50%;
   color: black;
-  border: 2px solid black;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 30px;
 }
 /*# sourceMappingURL=style.css.map */
