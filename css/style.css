@@ -1,9 +1,22 @@
+body {
+  background-color: #373832;
+}
+
 button {
   display: block;
   margin: 10px auto;
-  background: #ebb9b9;
-  border: 2px solid #ebb9b9;
+  width: 120px;
+  height: 40px;
+  background: #e78a8a;
+  border: 2px solid #e78a8a;
   border-radius: 4%;
+  color: #ffff;
+  font-weight: 400;
+}
+
+h2 {
+  text-align: center;
+  color: #ffff;
 }
 
 div {
@@ -21,7 +34,5 @@ div {
   background: #45c0c0;
   color: black;
   border: 1px solid black;
-  text-align: center;
-  line-height: 30px;
 }
 /*# sourceMappingURL=style.css.map */

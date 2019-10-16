@@ -1,26 +1,37 @@
+body {
+    background-color: #373832;
+}
+
 button {
     display: block;
     margin: 10px auto;
-    background: rgb(235, 185, 185);
-    border: 2px solid rgb(235, 185, 185);
+    width: 120px;
+    height: 40px;
+    background: rgb(231, 138, 138);
+    border: 2px solid rgb(231, 138, 138);
     border-radius: 4%;
+    color: #ffff;
+    font-weight: 400;
+}
+
+h2 {
+    text-align: center;
+    color: #ffff;
 }
 
 div {
     width: 30px;
     height: 30px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     margin: 5px;
     float: left;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     line-height: 30px;
 }
 
 .circle {
     background: rgb(69, 192, 192);
-    color: black;
-    border: 1px solid black;
-    text-align: center;
-    line-height: 30px;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
 }
